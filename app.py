@@ -100,8 +100,6 @@ if check_prompt(prompt) :
         response = answer(prompt)
         end_time = time.time()
 
-        response = answer(prompt)
-
         elapsed_time = end_time - start_time
 
         st.sidebar.write(elapsed_time)
